@@ -77,10 +77,10 @@ textarea:not([rows]) {
   font-family: 'Lato', serif;
 }
 :root {
-  ---d: #53a1ad;
-  ---s: #58ad52; 
-  ---b: #535a5e;
-  ---c: #a4b9be; 
+  ---dark-cyan: hsl(188, 35%, 50%);
+  ---light-green: hsl(116, 36%, 50%);
+  ---dark-gray: hsl(202, 6%, 35%);
+  ---light-gray: hsl(192, 17%, 69%);
 }
 body {
   font-weight: 400;
