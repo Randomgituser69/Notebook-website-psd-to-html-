@@ -76,6 +76,12 @@ textarea:not([rows]) {
 * { 
   font-family: 'Lato', serif;
 }
+:root {
+  ---d: #53a1ad;
+  ---s: #58ad52; 
+  ---b: #535a5e;
+  ---c: #a4b9be; 
+}
 body {
   font-weight: 400;
   font-size: 1rem;
