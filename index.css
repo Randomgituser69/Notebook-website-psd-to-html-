@@ -81,16 +81,19 @@ textarea:not([rows]) {
   ---light-green: hsl(116, 36%, 50%);
   ---dark-gray: hsl(202, 6%, 35%);
   ---light-gray: hsl(192, 17%, 69%);
+  ---gray: hsl(202, 4%, 64%);
+  ---off-white: hsl(207, 26%, 93%);
 }
 body {
   padding: 0;
   margin: 0;
   font-weight: 400;
   font-size: 1rem;
+  color: var(---gray);
 }
-section {
-  padding: 15px;
-}
+  section {
+    padding: 10px;
+  }
 h2,
 h3 {
  font-weight: 700;
@@ -102,9 +105,10 @@ h3 {
   align-items: center;
 }
 header {
-  background-image: url('Header(3).png');
+  background-image: url('Header\ \(3\).png');
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 .copyright {
   display: flex;
@@ -150,13 +154,35 @@ a {
   text-decoration: none;
 }
 .free {
+  color: white;
   background-color: var(---dark-gray);
+}
+.free h3 {
+  color: var(---off-white);
+}
+.free ul {
+  color: black;
+  background-color: hsl(202, 6%, 90%);
 }
 .pro {
   background-color: var(---light-green);
 }
+.pro ul {
+  background-color: hsl(116, 36%, 95%);
+  color: black;
+}
+.pro h3 {
+  color: var(---off-white);
+}
 .Enterprise {
   background-color: var(---dark-cyan);
+}
+.Enterprise ul {
+  background-color: hsl(188, 35%, 95%);
+  color: black;
+}
+.Enterprise h3 {
+  color: var(---off-white);
 }
 .touchy {
   background-color: black;
@@ -168,12 +194,19 @@ a {
 .wrapper h1 {
   font-weight: 300;
 }
+.first h2 {
+  color: black;
+}
+.third h2 {
+  color: black;
+}
 .first {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
+
 footer {
   color: white;
 }
