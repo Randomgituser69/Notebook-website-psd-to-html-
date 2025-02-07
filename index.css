@@ -103,7 +103,7 @@ h3 {
   font-size: 1.5rem;
 }
 h1 {
-  font-size: 2em;
+  font-size: 2.5rem;
 }
 .wraper {
   display: flex;
@@ -136,6 +136,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  padding: 15px 80px;
 }
 .copyright {
   display: flex;
@@ -210,7 +211,7 @@ ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 20px;
 }
 a {
   text-decoration: none;
@@ -265,6 +266,7 @@ a {
 .wrapper h1 {
   font-weight: 300;
 }
+
 .first h2 {
   color: black;
 }
